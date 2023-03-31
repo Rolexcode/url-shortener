@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>    
+<body>
+	<h1>Shortened URL:</h1>
+    <div class="wrap">
+
+        <p>Great 😊 Here is your shortened link <a href="{{ short_url }}">{{ short_url }}</a></p>
+    </div>
+</body>
+</html>
